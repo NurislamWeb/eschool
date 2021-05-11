@@ -1,0 +1,1675 @@
+/**************extra small device  start **********************/
+@media (min-width:320px) and (max-width:575px){
+/*    ******** header-top start ********/
+    #haeder-top{
+        display: none;
+    }
+/*    ******** header-top end **********/
+    
+    
+/*    ******** header start ************/
+    #header img{
+        width: 200px;
+    }
+    
+    #header .bar{
+        background: #E81C24;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    #header ul li a{
+        text-align: center;
+    }
+    
+    #header nav ul li{
+        position: relative;
+    }
+    
+    #header nav ul li a::after{
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+
+    #header nav ul li a:hover::after{
+        width: 100%;
+    }
+    #header nav ul li .active::after{
+        color: #E81C24;
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+    
+    #header nav ul li .seminar{
+        margin-top: 10px;
+    }
+/*    ******** header end **************/
+    
+    
+/*    ******** course start  ************/
+    #courses .title{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title h2{
+        padding-top: 30px;
+    }
+    
+    #courses .course-tab{
+        flex-direction: column;
+    }
+    
+    #courses .tab-box{
+        max-width: 100%;
+    }
+    
+    #courses .course .items i{
+        font-size: 30px;
+    }
+    
+    #courses .details{
+        margin-top: 10px;
+    }
+    
+    #courses .tab-details{
+        max-width: 100%;
+    }
+    
+    #courses .details .text{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 60px;
+    }
+    
+    #courses .details .text .admission a{
+        padding-right: 10px;
+        bottom: -47px;
+        left: -11px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    #courses .details .text P{
+        padding-bottom: 15px;
+    }
+/*    ******** course end  **************/
+    
+    
+    
+/*    ******** counseling start  *********/
+    #courses .form .level input{
+        width: 100%;
+    }
+    
+    #courses .form button{
+        width: 100%;
+    }
+    
+    #courses .img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #courses .img img{
+        width: 100%;
+        height: 100%;
+    }
+/*    ******** counseling end  ***********/
+    
+    
+    
+/*    ******** seminar end ****************/
+    #seminar .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #seminar .title h2{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    
+    #seminar .card-body .details h5{
+        font-size: 14px;
+    }
+    
+    #seminar .card-body .details-class a{
+        padding: 5px 7px;
+    }
+    
+/*    ******** seminar start **************/
+    
+    
+    
+/*    ******** Facilities start ************/
+    #facilities .title h2{
+        padding-top: 30px;
+    }
+/*    ******** Facilities end **************/
+    
+    
+    
+/*    ******** class start *****************/
+    #class .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #class .title h2{
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    
+    #class .class-items .main-tab .tab-item{
+        padding: 10px 30px;
+        border-right: 0;
+    }
+    
+    #class .class-items .main-tab .tab-item-1{
+        padding: 10px 30px;
+    }
+    
+    #class .class-items .main-tab .tab-item-2{
+        padding: 10px 28px;
+    }
+    
+    #class .class-items .main-tab .tab-item-3{
+        padding: 10px 73px;
+    }
+   
+/*    ******** class end *******************/
+    
+    
+    
+/*    ******** mentor start *****************/
+    #mentor .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #mentor .title h2{
+        padding-top: 30px;
+    }
+    
+    #mentor .item .overlay .text{
+        margin-top: 78%;
+    }
+/*    ******** mentor end *******************/
+    
+    
+    
+/*    ******** #s-story start *****************/
+    #s-story .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-story .title h2{
+        padding-top: 30px;
+        font-size: 29px;
+    }
+    
+    #s-story .item{
+        margin-bottom: 20px;
+    }
+    
+    #s-story .item .overlay .text{
+        margin-top: 42%;
+    }
+    
+/*    ******** #s-story end ******************/
+    
+    
+    
+/*    ******** #s-student start ***************/
+    #s-student .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-student .title h2{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    #s-student .student-slider .prev{
+        left: -15px;
+        z-index: 1;
+    }
+    
+    #s-student .student-slider .next{
+        right: -15px;
+    }
+    
+    #s-student .comment .text-box .text{
+        width: 100%;
+    }
+    
+    #s-student .item .overlay .text{
+        margin-top: 200px;
+    }
+/*    ******** #s-student end *****************/
+    
+    
+    
+/*    ******** #whom start *********************/
+    #whom .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #whom .title h2{
+        padding-top: 30px;
+    }
+    
+    #whom .details-box .text{
+        margin-left: 0;
+    } 
+    
+    #whom .details-box .text .triangle-left{
+        display: none;
+    }
+    
+    #whom .face-slider{
+        padding: 60px 0;
+        position: relative;
+    }
+
+    #whom .face-slider .prev-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 44%;
+        transform: translateX(-50%);
+    }
+
+    #whom .face-slider .next-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+/*    ******** #whom end **********************/
+    
+    
+    
+/*    ******** #leader start *******************/
+    #leader .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #leader .title h2{
+        padding-top: 30px;
+    }
+    
+    #leader .leader-box .text{
+        padding: 20px 15px;
+    }
+    
+    #leader .leader-box .text p{
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+    
+    #leader .concern .tabs .item{
+        font-size: 14px;
+    }
+/*    ******** #leader end *********************/
+    
+    
+    
+/*    ******** contact start ********************/
+    #contact .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #contact .title h2{
+        padding-top: 30px;
+    }
+    
+    #contact .about .text h4{
+        font-size: 25px;
+    }
+    
+    #contact .form{
+        padding-top: 20px;
+    }
+    
+    #footer .footer-top i{
+        font-size: 30px;
+    }
+    
+    #footer .footer-top p{
+        font-size: 14px;
+    }
+/*    ******** contact end **********************/
+    
+    
+    
+/*    ******** footer bottom start ****************/
+    #footer-bottom .payment{
+        text-align: left;
+    }
+/*    ******** footer bottom end ******************/
+    
+}
+/**************extra small device  end ******** **************/
+
+
+
+
+
+
+
+
+
+/************** small device  start ******** **********************/
+@media (min-width:576px) and (max-width:767px){
+/*    ******** header-top start ********/
+    #haeder-top{
+        display: none;
+    }
+/*    ******** header-top end **********/
+    
+    
+/*    ******** header start ************/
+    #header img{
+        width: 200px;
+    }
+    
+    #header .bar{
+        background: #E81C24;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    #header ul li a{
+        text-align: center;
+    }
+    
+    #header nav ul li{
+        position: relative;
+    }
+    
+    #header nav ul li a::after{
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+
+    #header nav ul li a:hover::after{
+        width: 100%;
+    }
+    #header nav ul li .active::after{
+        color: #E81C24;
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+    
+    #header nav ul li .seminar{
+        margin-top: 10px;
+    }
+/*    ******** header end **************/
+    
+    
+/*    ******** course start  ************/
+    #courses .title{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title h2{
+        padding-top: 30px;
+    }
+    
+    #courses .course-tab{
+        flex-direction: column;
+    }
+    
+    #courses .tab-box{
+        max-width: 100%;
+    }
+    
+    #courses .course .items i{
+        font-size: 30px;
+    }
+    
+    #courses .details{
+        margin-top: 10px;
+    }
+    
+    #courses .tab-details{
+        max-width: 100%;
+    }
+    
+    #courses .details .text{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 60px;
+    }
+    
+    #courses .details .text .admission a{
+        padding-right: 10px;
+        bottom: -47px;
+        left: -11px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    #courses .details .text P{
+        padding-bottom: 15px;
+    }
+/*    ******** course end  **************/
+    
+    
+    
+/*    ******** counseling start  *********/
+    #courses .form .level input{
+        width: 100%;
+    }
+    
+    #courses .form button{
+        width: 100%;
+    }
+    
+    #courses .img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #courses .img img{
+        width: 100%;
+        height: 100%;
+    }
+/*    ******** counseling end  ***********/
+    
+    
+    
+/*    ******** seminar end ****************/
+    #seminar .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #seminar .title h2{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    
+    #seminar .card-body .details h5{
+        font-size: 14px;
+    }
+    
+    #seminar .card-body .details-class a{
+        padding: 5px 7px;
+    }
+    
+/*    ******** seminar start **************/
+    
+    
+    
+/*    ******** Facilities start ************/
+    #facilities .title h2{
+        padding-top: 30px;
+    }
+    
+    #facilities .life{
+        padding-bottom: 82px;
+    }
+    
+    #facilities .lab{
+        padding-bottom: 60px;
+    }
+    
+    #facilities .video{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .class{
+        padding-bottom: 33px;
+    }
+/*    ******** Facilities end **************/
+    
+    
+    
+/*    ******** class start *****************/
+    #class .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #class .title h2{
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    
+    #class .class-items .main-tab .tab-item{
+        padding: 10px 100px;
+        border-right: 0;
+    }
+    
+    #class .class-items .main-tab .tab-item-1{
+        padding: 10px 60px;
+    }
+    
+    #class .class-items .main-tab .tab-item-2{
+        padding: 10px 100px;
+    }
+    
+    #class .class-items .main-tab .tab-item-3{
+        padding: 10px 96px;
+    }
+   
+/*    ******** class end *******************/
+    
+    
+    
+/*    ******** mentor start *****************/
+    #mentor .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #mentor .title h2{
+        padding-top: 30px;
+    }
+    
+    #mentor .item .overlay .text{
+        margin-top: 80%;
+    }
+/*    ******** mentor end *******************/
+    
+    
+    
+/*    ******** #s-story start *****************/
+    #s-story .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-story .title h2{
+        padding-top: 30px;
+        font-size: 29px;
+    }
+    
+    #s-story .item{
+        margin-bottom: 20px;
+    }
+    
+    #s-story .item .overlay .text{
+        margin-top: 40%;
+    }
+    
+    #s-story .item .overlay .text h4{
+        font-size: 12px;
+    }
+    
+/*    ******** #s-story end ******************/
+    
+    
+    
+/*    ******** #s-student start ***************/
+    #s-student .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-student .title h2{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    #s-student .student-slider .prev{
+        left: -15px;
+        z-index: 1;
+    }
+    
+    #s-student .student-slider .next{
+        right: -15px;
+    }
+    
+    #s-student .comment .text-box .text{
+        width: 100%;
+    }
+    
+    #s-student .item .overlay .text{
+        margin-top: 80%;
+    }
+/*    ******** #s-student end *****************/
+    
+    
+    
+/*    ******** #whom start *********************/
+    #whom .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #whom .title h2{
+        padding-top: 30px;
+    }
+    
+    #whom .details-box .text{
+        margin-left: 0;
+    } 
+    
+    #whom .details-box .text .triangle-left{
+        display: none;
+    }
+    
+    #whom .face-slider{
+        padding: 60px 0;
+        position: relative;
+    }
+
+    #whom .face-slider .prev-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 44%;
+        transform: translateX(-50%);
+    }
+
+    #whom .face-slider .next-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+/*    ******** #whom end **********************/
+    
+    
+    
+/*    ******** #leader start *******************/
+    #leader .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #leader .title h2{
+        padding-top: 30px;
+    }
+    
+    #leader .leader-box .text{
+        padding: 20px 15px;
+    }
+    
+    #leader .leader-box .text p{
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+    
+    #leader .concern .tabs .item{
+        font-size: 14px;
+    }
+/*    ******** #leader end *********************/
+    
+    
+    
+/*    ******** contact start ********************/
+    #contact .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #contact .title h2{
+        padding-top: 30px;
+    }
+    
+    #contact .about .text h4{
+        font-size: 25px;
+    }
+    
+    #contact .form{
+        padding-top: 20px;
+    }
+    
+    #footer .footer-top i{
+        font-size: 30px;
+    }
+    
+    #footer .footer-top p{
+        font-size: 14px;
+    }
+/*    ******** contact end **********************/
+    
+    
+    
+/*    ******** footer bottom start ****************/
+    #footer-bottom .payment{
+        text-align: left;
+    }
+/*    ******** footer bottom end ******************/
+    
+}
+/*********end small device 576 px - 767 px *************/
+
+@media(max-width:767px){
+     #facilities .life{
+        padding-bottom: 60px;
+    }
+    
+    #facilities .lab{
+        padding-bottom: 35px;
+    }
+    
+    #facilities .video{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .class{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .job{
+        padding-bottom: 33px;
+    }
+    
+    
+}
+/************** small device  end ******** ***********************/
+
+
+
+
+
+
+
+/************** medium device  start ******** **********************/
+@media (min-width:768px) and (max-width:991px){
+/*    ******** header-top start ********/
+    #haeder-top{
+        display: none;
+    }
+/*    ******** header-top end **********/
+    
+    
+/*    ******** header start ************/
+    #header img{
+        width: 200px;
+    }
+    
+    #header .bar{
+        background: #E81C24;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    #header ul li a{
+        text-align: center;
+    }
+    
+    #header nav ul li{
+        position: relative;
+    }
+    
+    #header nav ul li a::after{
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+
+    #header nav ul li a:hover::after{
+        width: 100%;
+    }
+    #header nav ul li .active::after{
+        color: #E81C24;
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+    
+    #header nav ul li .seminar{
+        margin-top: 10px;
+    }
+/*    ******** header end **************/
+    
+    
+/*    ******** course start  ************/
+    #courses .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title h2{
+        padding-top: 30px;
+    }
+    
+    #courses .course-tab{
+        flex-direction: row;
+    }
+    
+    #courses .tab-box{
+        max-width: 100%;
+    }
+    
+    #courses .course{
+        padding: 11px 0;
+    }
+    
+    #courses .course .items i{
+        font-size: 30px;
+    }
+    
+    
+    #courses .tab-details{
+        max-width: 100%;
+    }
+    
+    #courses .details .text{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 60px;
+    }
+    
+    #courses .details .text .admission a{
+        padding-right: 10px;
+        bottom: -47px;
+        left: -11px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    #courses .details .text P{
+        padding-bottom: 15px;
+    }
+/*    ******** course end  **************/
+    
+    
+    
+/*    ******** counseling start  *********/
+    #courses .form .level input{
+        width: 100%;
+    }
+    
+    #courses .form button{
+        width: 100%;
+    }
+    
+    #courses .img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #courses .img img{
+        width: 100%;
+        height: 100%;
+    }
+/*    ******** counseling end  ***********/
+    
+    
+    
+/*    ******** seminar end ****************/
+    #seminar .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #seminar .title h2{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    
+    #seminar .card-body .details h5{
+        font-size: 14px;
+    }
+    
+    #seminar .card-body .details-class a{
+        padding: 5px 7px;
+    }
+    
+/*    ******** seminar start **************/
+    
+    
+    
+/*    ******** Facilities start ************/
+    #facilities .title h2{
+        padding-top: 30px;
+    }
+    
+    #facilities .life{
+        padding-bottom: 58px;
+    }
+    
+    #facilities .lab{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .video{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .class{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .job{
+        padding-bottom: 33px;
+    }
+/*    ******** Facilities end **************/
+    
+    
+    
+/*    ******** class start *****************/
+    #class .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #class .title h2{
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    
+    #class .class-items .main-tab .tab-item{
+        padding: 10px 100px;
+        border-right: 0;
+    }
+    
+    #class .class-items .main-tab .tab-item-1{
+        padding: 10px 60px;
+    }
+    
+    #class .class-items .main-tab .tab-item-2{
+        padding: 10px 100px;
+    }
+    
+    #class .class-items .main-tab .tab-item-3{
+        padding: 10px 96px;
+    }
+   
+/*    ******** class end *******************/
+    
+    
+    
+/*    ******** mentor start *****************/
+    #mentor .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #mentor .title h2{
+        padding-top: 30px;
+    }
+    
+    #mentor .item .overlay .text{
+        margin-top: 75%;
+    }
+/*    ******** mentor end *******************/
+    
+    
+    
+/*    ******** #s-story start *****************/
+    #s-story .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-story .title h2{
+        padding-top: 30px;
+        font-size: 29px;
+    }
+    
+    #s-story .item{
+        margin-bottom: 20px;
+    }
+    
+    #s-story .item .overlay .text{
+        margin-top: 40%;
+    }
+    
+    #s-story .item .overlay .text h4{
+        font-size: 12px;
+    }
+    
+/*    ******** #s-story end ******************/
+    
+  
+    
+    
+/*    ******** #s-student start ***************/
+    #s-student .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-student .title h2{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    #s-student .student-slider .prev{
+        left: -15px;
+        z-index: 1;
+    }
+    
+    #s-student .student-slider .next{
+        right: -15px;
+    }
+    
+    #s-student .comment .text-box .text{
+        width: 100%;
+    }
+    
+    #s-student .item .overlay .text{
+        margin-top: 78%;
+    }
+/*    ******** #s-student end *****************/
+    
+    
+    
+/*    ******** #whom start *********************/
+    #whom .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #whom .title h2{
+        padding-top: 30px;
+    }
+    
+    #whom .details-box .text{
+        margin-left: 0;
+    } 
+    
+    #whom .details-box .text .triangle-left{
+        display: none;
+    }
+    
+    #whom .face-slider{
+        padding: 60px 0;
+        position: relative;
+    }
+
+    #whom .face-slider .prev-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 44%;
+        transform: translateX(-50%);
+    }
+
+    #whom .face-slider .next-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+/*    ******** #whom end **********************/
+    
+    
+    
+/*    ******** #leader start *******************/
+    #leader .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #leader .title h2{
+        padding-top: 30px;
+    }
+    
+    #leader .leader-box{
+        margin-top: 0;
+    }
+    
+    #leader .leader-box .text{
+        padding: 20px 0;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    
+    #leader .leader-box .text p{
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    
+    #leader .concern .tabs .item{
+        font-size: 20px;
+    }
+/*    ******** #leader end *********************/
+    
+    
+    
+/*    ******** contact start ********************/
+    #contact .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #contact .title h2{
+        padding-top: 30px;
+    }
+    
+    #contact .about .text h4{
+        font-size: 25px;
+    }
+    
+    #contact .form{
+        padding-top: 20px;
+    }
+    
+    #footer .footer-top i{
+        font-size: 40px;
+    }
+    
+    #footer .footer-top p{
+        font-size: 16px;
+    }
+    
+    #footer .items p{
+        padding-right: 140px;
+    }
+    
+    #footer .items ul li span{
+        padding-right: 100px;
+    }
+    
+    #footer .items ul .cell span{
+        padding-right: 120px;
+    }
+/*    ******** contact end **********************/
+    
+    
+}
+/*********end small device 576 px - 767 px *************/
+
+@media(max-width:767px){
+     #facilities .life{
+        padding-bottom: 60px;
+    }
+    
+    #facilities .lab{
+        padding-bottom: 35px;
+    }
+    
+    #facilities .video{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .class{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .job{
+        padding-bottom: 33px;
+    }
+    
+    
+}
+/************** medium device  end ******** ***********************/
+
+
+
+
+
+
+
+
+
+/************** large device  start ******** **********************/
+@media (min-width:992px) and (max-width:1199px){ 
+    #haeder-top{
+        display: none;
+    }
+    
+/*    ******** header start ************/
+    #header img{
+        width: 200px;
+    }
+    
+    #header .bar{
+        background: #E81C24;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    #header ul li a{
+        text-align: center;
+    }
+    
+    #header nav ul li{
+        position: relative;
+    }
+    
+    #header nav ul li a::after{
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+
+    #header nav ul li a:hover::after{
+        width: 100%;
+    }
+    #header nav ul li .active::after{
+        color: #E81C24;
+        position: absolute;
+        left: 8px;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #E81C24;
+        content: '';
+        transition: .4s;
+    }
+    
+    #header nav ul li .seminar{
+        margin-top: 10px;
+    }
+/*    ******** header end **************/
+    
+    
+/*    ******** course start  ************/
+    #courses .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #courses .title h2{
+        padding-top: 30px;
+    }
+    
+    #courses .course-tab{
+        flex-direction: row;
+    }
+    
+    #courses .tab-box{
+        max-width: 100%;
+    }
+    
+    #courses .course{
+        padding: 9px 0;
+    }
+    
+    #courses .course .items i{
+        font-size: 40px;
+    }
+    
+    
+    #courses .tab-details{
+        max-width: 100%;
+    }
+    
+    #courses .details .text{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 60px;
+    }
+    
+    #courses .details .text .admission a{
+        padding-right: 10px;
+        bottom: -47px;
+        left: -11px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    #courses .details .text P{
+        padding-bottom: 15px;
+    }
+/*    ******** course end  **************/
+    
+    
+    
+/*    ******** counseling start  *********/
+    #courses .form .level input{
+        width: 80%;
+    }
+    
+    #courses .form button{
+        width: 80%;
+    }
+    
+    #courses .img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #courses .img img{
+        width: 100%;
+        height: 100%;
+    }
+/*    ******** counseling end  ***********/
+    
+    
+    
+/*    ******** seminar end ****************/
+    #seminar .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #seminar .title h2{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    
+    #seminar .card-body .details h5{
+        font-size: 14px;
+    }
+    
+    #seminar .card-body .details-class a{
+        padding: 5px 7px;
+    }
+    
+/*    ******** seminar start **************/
+    
+    
+    
+/*    ******** Facilities start ************/
+    #facilities .title h2{
+        padding-top: 30px;
+    }
+    
+    #facilities .life{
+        padding-bottom: 58px;
+    }
+    
+    #facilities .lab{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .video{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .class{
+        padding-bottom: 33px;
+    }
+    
+    #facilities .job{
+        padding-bottom: 33px;
+    }
+/*    ******** Facilities end **************/
+    
+    
+    
+/*    ******** class start *****************/
+    #class .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #class .title h2{
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    
+    #class .class-items .main-tab .tab-item{
+        padding: 10px 50px;
+        border-right: 0;
+    }
+/*    ******** class end *******************/
+    
+    
+    
+/*    ******** mentor start *****************/
+    #mentor .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #mentor .title h2{
+        padding-top: 30px;
+    }
+    
+    #mentor .item .overlay .text{
+        margin-top: 75%;
+    }
+/*    ******** mentor end *******************/
+    
+    
+    
+/*    ******** #s-story start *****************/
+    #s-story .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-story .title h2{
+        padding-top: 30px;
+        font-size: 29px;
+    }
+    
+    #s-story .item{
+        margin-bottom: 20px;
+    }
+    
+    #s-story .item .overlay .text{
+        margin-top: 45%;
+    }
+    
+    #s-story .item .overlay .text h4{
+        font-size: 12px;
+    }
+    
+/*    ******** #s-story end ******************/
+    
+  
+    
+    
+/*    ******** #s-student start ***************/
+    #s-student .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #s-student .title h2{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    #s-student .student-slider .prev{
+        left: -15px;
+        z-index: 1;
+    }
+    
+    #s-student .student-slider .next{
+        right: -15px;
+    }
+    
+    #s-student .comment .text-box .text{
+        width: 75%;
+    }
+    
+    #s-student .item .overlay .text{
+        margin-top: 78%;
+    }
+/*    ******** #s-student end *****************/
+    
+    
+    
+/*    ******** #whom start *********************/
+    #whom .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #whom .title h2{
+        padding-top: 30px;
+    }
+    
+    #whom .details-box .text{
+        margin-left: 50;
+        padding-bottom: 30px;
+    } 
+    
+    
+    #whom .face-slider{
+        padding: 60px 0;
+        position: relative;
+    }
+
+    #whom .face-slider .prev-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 44%;
+        transform: translateX(-50%);
+    }
+
+    #whom .face-slider .next-1{
+        width: 30px;
+        height: 30px;
+        background: #E81C24;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+/*    ******** #whom end **********************/
+    
+    
+    
+/*    ******** #leader start *******************/
+    #leader .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #leader .title h2{
+        padding-top: 30px;
+    }
+    
+    
+    #leader .leader-box .text{
+        padding: 20px 0;
+        padding-left: 15px;
+    }
+    
+/*    ******** #leader end *********************/
+    
+    
+    
+/*    ******** contact start ********************/
+    #contact .title i{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #contact .title h2{
+        padding-top: 30px;
+    }
+    
+    #contact .about .text h4{
+        font-size: 25px;
+    }
+    
+    #contact .form{
+        padding-top: 20px;
+    }
+    
+    #footer .footer-top i{
+        font-size: 40px;
+    }
+    
+    #footer .footer-top p{
+        font-size: 16px;
+    }
+    
+    #footer .items ul .cell span{
+        padding-right: 10px;
+    }
+   
+/*    ******** contact end **********************/
+    
+    
+}
+/************** large device  end ******** ***********************/
+

@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?edff906c80f4dbce0b418caa2ec52715") format("truetype"),
+url("./flaticon.woff?edff906c80f4dbce0b418caa2ec52715") format("woff"),
+url("./flaticon.woff2?edff906c80f4dbce0b418caa2ec52715") format("woff2"),
+url("./flaticon.eot?edff906c80f4dbce0b418caa2ec52715#iefix") format("embedded-opentype"),
+url("./flaticon.svg?edff906c80f4dbce0b418caa2ec52715#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "digital-marketing": "\f101",
+    "computer": "\f102",
+    "illustration": "\f103",
+    "mobile-app": "\f104",
+    "bullhorn": "\f105",
+    "armchair": "\f106",
+    "network": "\f107",
+    "seo": "\f108",
+    "ui": "\f109",
+    "3d-movie": "\f10a",
+    "vector": "\f10b",
+    "configuration": "\f10c",
+    "chair": "\f10d",
+);
+
+.flaticon-digital-marketing:before {
+    content: map-get($flaticon-map, "digital-marketing");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-illustration:before {
+    content: map-get($flaticon-map, "illustration");
+}
+.flaticon-mobile-app:before {
+    content: map-get($flaticon-map, "mobile-app");
+}
+.flaticon-bullhorn:before {
+    content: map-get($flaticon-map, "bullhorn");
+}
+.flaticon-armchair:before {
+    content: map-get($flaticon-map, "armchair");
+}
+.flaticon-network:before {
+    content: map-get($flaticon-map, "network");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon-map, "seo");
+}
+.flaticon-ui:before {
+    content: map-get($flaticon-map, "ui");
+}
+.flaticon-3d-movie:before {
+    content: map-get($flaticon-map, "3d-movie");
+}
+.flaticon-vector:before {
+    content: map-get($flaticon-map, "vector");
+}
+.flaticon-configuration:before {
+    content: map-get($flaticon-map, "configuration");
+}
+.flaticon-chair:before {
+    content: map-get($flaticon-map, "chair");
+}
