@@ -83,7 +83,7 @@ body{
 
 /************** header-top  css start *****************/
 #haeder-top{
-    background: #ED1C24;
+    background: #FF4E00;
 }
 #haeder-top ul{
     margin-bottom: 0;
@@ -118,6 +118,9 @@ body{
 
 
 
+
+
+
 /************** header css start ********************/
 #header{
     background: #E4E3E3;
@@ -138,19 +141,19 @@ body{
 }
 
 #header nav ul li .active::after{
-    color: #E81C24;
+    color: #FF4E00;
     position: absolute;
     left: 8px;
     bottom: 0;
     width: 70%;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
     transition: .4s;
 }
 
 #header nav ul li a:hover{
-    color: #E81C24;
+    color: #FF4E00;
 }
 
 #header nav ul li a::after{
@@ -159,7 +162,7 @@ body{
     bottom: 0;
     width: 0;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
     transition: .4s;
 }
@@ -170,7 +173,7 @@ body{
 
 #header nav ul li .seminar{
     padding: 10px 20px;
-    background: #E81C24;
+    background: #FF4E00;
     color: #fff;
     border-radius: 3px;
     box-shadow: 0px 15px 10px -15px #111;
@@ -186,6 +189,167 @@ body{
     height: 0;
 }
 /************** header css end **********************/
+
+
+
+
+
+
+
+/************** slider  css start *********************/
+#slider .banner{
+    width: 100%;
+    background: url(../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 280px;
+}
+
+#slider .banner-2{
+    width: 100%;
+    background: url(../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 280px;
+}
+
+#slider .banner-3{
+    width: 100%;
+    background: url(../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 280px;
+}
+
+
+#slider .banner .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 130px;
+}
+
+#slider .main-slider .prev{
+    background: #FF4E00;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+#slider .main-slider .next{
+    background: #FF4E00;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#slider .main-slider ul{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider .main-slider ul li{
+    display: inline-block;
+}
+
+#slider .main-slider ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: 0;
+    margin: 0 2px;
+    border: 0;
+    position: relative;
+    border: 1px solid #333;
+    background: transparent;
+    
+}
+
+#slider .main-slider ul .slick-active button{
+    background: #FF4E00;
+    border: #FF4E00;
+}
+
+
+
+#slider .banner .overlay h1{
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #333;
+    font-family: 'Arimo', sans-serif;
+}
+
+#slider .banner .overlay h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
+    font-family: 'Arimo', sans-serif;
+} 
+
+#slider .banner .overlay p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    width: 513px;
+}
+
+#slider .banner .overlay a{
+    padding: 15px 20px;
+    background: #FF4E00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Arimo', sans-serif;
+    margin-right: 5px;
+    transition: .4s;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+#slider .banner .overlay a:hover{
+    background: #000;
+}
+
+#slider .banner .overlay .admission{
+    background: #000;
+    transition: .04s;
+}
+
+#slider .banner .overlay .admission:hover{
+    background: #FF4E00;;
+}
+
+/************** slider  css end ***********************/
 
 
 
@@ -222,7 +386,7 @@ body{
 }
 
 #courses .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background: #ED1C24;
+    background: #FF4E00;
     color: #fff;
 }
 
@@ -310,7 +474,7 @@ body{
 
 #courses .all-course a{
     padding: 12px 30px;
-    background: #e9252b;
+    background: #FF4E00;
     border-radius: 56px;
     font-size: 20px;
     color: #fff;
@@ -344,7 +508,7 @@ body{
 
 #courses .form button{
     outline: 0;
-    background: #E81C24;
+    background: #FF4E00;
     border: 0;
     color: #fff;
     font-family: 'Arimo', sans-serif;
@@ -528,7 +692,7 @@ body{
 }
 
 #class .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background: #E81C24;
+    background: #FF4E00;
     color: #fff
 }
 
@@ -604,7 +768,7 @@ body{
 #mentor .item .overlay .text{
     color: #fff;
     text-align: right;
-    background: #E81C24;
+    background: #FF4E00;
     margin-top: 220px;
     padding-right: 15px;
 }
@@ -646,8 +810,8 @@ body{
 }
 
 #mentor ul .slick-active button{
-    background: #E81C24;
-    border: 1px solid #E81C24;
+    background: #FF4E00;
+    border: 1px solid #FF4E00;
 }
 /************** mentor css end ***********************/
 
@@ -678,7 +842,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #E81C24;
+    color: #FF4E00;
     font-size: 60px;
     z-index: 1;
     opacity: 0;
@@ -760,7 +924,7 @@ body{
 }
 
 #s-student .item .overlay .text{
-    background: red;
+    background: #FF4E00;
     margin-top: 210px;
     text-align: right;
     padding-right: 10px;
@@ -788,7 +952,7 @@ body{
 #s-student .student-slider .prev{
     width: 40px;
     height: 40px;
-    background: #E81C24;
+    background: #FF4E00;
     font-size: 20px;
     line-height: 40px;
     color: #fff;
@@ -802,7 +966,7 @@ body{
 #s-student .student-slider .next{
     width: 40px;
     height: 40px;
-    background: #E81C24;
+    background: #FF4E00;
     font-size: 20px;
     line-height: 40px;
     color: #fff;
@@ -890,7 +1054,7 @@ body{
 }
 
 #s-student .comment .text-box .text i{
-    color: #E81C24;
+    color: #FF4E00;
 }
 
 #s-student .comment .text-box .text p{
@@ -926,8 +1090,8 @@ body{
 }
 
 #s-student ul .slick-active button{
-    background: #E81C24;
-    border: 1px solid #E81C24;
+    background: #FF4E00;
+    border: 1px solid #FF4E00;
 }
 /************** s-student css end *********************/
 
@@ -947,7 +1111,7 @@ body{
 #whom .face-slider .prev{
     width: 30px;
     height: 30px;
-    background: #E81C24;
+    background: #FF4E00;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
@@ -961,7 +1125,7 @@ body{
 #whom .face-slider .next{
     width: 30px;
     height: 30px;
-    background: #E81C24;
+    background: #FF4E00;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
@@ -984,11 +1148,11 @@ body{
     height: 75px;
     background: #F1F1F1;
     border-radius: 50%;
-    border: 1px solid #E81C24;
+    border: 1px solid #FF4E00;
 }
 
 #whom .slick-current .img{
-    background: #E81C24;
+    background: #FF4E00;
     transform: scale(1.1);
 }
 
@@ -1043,7 +1207,7 @@ body{
     left: 0;
     width: 80px;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
 }
 
@@ -1053,7 +1217,7 @@ body{
     left: 0;
     width: 100px;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
 }
 
@@ -1185,7 +1349,7 @@ body{
 }
 
 #leader .concern .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    background: #E81C24;
+    background: #FF4E00;
     color: #fff !important;
 }
 
@@ -1201,7 +1365,7 @@ body{
 #leader .concern .partner .item{
     width: 19%;
     text-align: center;
-    border: 1px solid #E81C24;
+    border: 1px solid #FF4E00;
     padding: 5px;
 }
 
@@ -1263,7 +1427,7 @@ body{
     font-family: 'Arimo', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: #E81C24;
+    color: #FF4E00;
     padding-bottom: 10px;
 }
 
@@ -1288,7 +1452,7 @@ body{
 }
 
 #contact .about .text a{
-    background: #E81C24;
+    background: #FF4E00;
     padding: 10px 15px;
     font-size: 16px;
     font-weight: 600;
@@ -1311,7 +1475,7 @@ body{
 }
 
 #contact .about .text .get:hover{
-    background: #E81C24;
+    background: #FF4E00;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
@@ -1319,7 +1483,7 @@ body{
     font-size: 16px;
     font-weight: 600;
     font-family: 'Arimo', sans-serif;
-    color: #E81C24;
+    color: #FF4E00;
 }
 
 #contact .form .level h4{
@@ -1349,7 +1513,7 @@ body{
 
 #contact .form button{
     width: 100%;
-    background: #E81C24;
+    background: #FF4E00;
     font-family: 'Arimo', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -1381,13 +1545,13 @@ body{
     background: #fff;
     text-align: center;
     padding: 20px 0;
-    border-top: 3px solid #E81C24;
+    border-top: 3px solid #FF4E00;
     color: #333;
     transition: .4s;
 }
 
 #footer .footer-top:hover{
-    background: #E81C24;
+    background: #FF4E00;
     color: #fff;
 }
 
@@ -1421,7 +1585,7 @@ body{
     height: 40px;
     text-align: center;
     line-height: 40px;
-    background: #E81C24;
+    background: #FF4E00;
     color: #fff;
     font-size: 20px;
     transition: .4s;
@@ -1445,7 +1609,7 @@ body{
     left: 0;
     width: 80px;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
 }
 
@@ -1455,7 +1619,7 @@ body{
     left: 0;
     width: 100px;
     height: 1px;
-    background: #E81C24;
+    background: #FF4E00;
     content: '';
 }  
 
@@ -1475,7 +1639,7 @@ body{
 #footer .items ul li i{
     width: 40px ;
     height: 40px;
-    background: #E81C24;
+    background: #FF4E00;
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -1506,7 +1670,7 @@ body{
 }
 
 #footer .items ul li a:hover{
-    color: #E81C24;
+    color: #FF4E00;
 }
 /************** footer css end **********************/
 
@@ -1529,7 +1693,7 @@ body{
 }
 
 #footer-bottom .copy p a{
-    color: #E81C24;
+    color: #FF4E00;
     transition: .4s;
 }
 
@@ -1567,7 +1731,7 @@ body{
     line-height: 40px;
     font-size: 30px;
     color: #fff;
-    background: #E81C24;
+    background: #FF4E00;
     transition: .4s;
 }
 
@@ -1584,7 +1748,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 
 /*
-primarty: #E81C24;
+primarty: #FF4E00;
 secndary: #201F1F;
 background: #E4E3E3;
 font-color: #333;

@@ -1,3 +1,48 @@
+//**************** main slider start *****************
+$('.main-slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+    autoplay: true,
+    infinite: true,
+    prevArrow:'<i class="fa fa-arrow-left prev" aria-hidden="true"></i>',
+    nextArrow:'<i class="fa fa-arrow-right next" aria-hidden="true"></i>',
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+//**************** main slider end *******************
+
+
+
+
 //**************** mentor slider start ***************
 $('.mentor-slider').slick({
   dots: true,

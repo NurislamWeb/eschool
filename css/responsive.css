@@ -58,6 +58,35 @@
 /*    ******** header end **************/
     
     
+   
+    
+    
+/*    ******** slider start *************/
+    #slider .banner{
+        padding: 200px 0;
+    }
+    
+    #slider .banner .overlay h1{
+        font-size: 30px;
+    }
+    
+    #slider .banner .overlay h3{
+        font-size: 20px;
+    }
+    
+    #slider .banner .overlay p{
+        width: 420px;
+    }
+    
+    #slider .banner .overlay{
+        padding-top: 90px;
+        padding-left: 60px;
+    }
+/*    ******** slider end **************/
+    
+    
+    
+    
 /*    ******** course start  ************/
     #courses .title{
         left: 50%;
@@ -448,6 +477,35 @@
         margin-top: 10px;
     }
 /*    ******** header end **************/
+    
+    
+    
+    
+/*    ******** slider start *************/
+    #slider .banner{
+        padding: 200px 0;
+    }
+    
+    #slider .banner .overlay h1{
+        font-size: 30px;
+    }
+    
+    #slider .banner .overlay h3{
+        font-size: 20px;
+    }
+    
+    #slider .banner .overlay p{
+        width: 420px;
+    }
+    
+    #slider .banner .overlay{
+        padding-top: 90px;
+        padding-left: 60px;
+    }
+    
+/*    ******** slider end **************/
+    
+    
     
     
 /*    ******** course start  ************/
@@ -883,6 +941,37 @@
         margin-top: 10px;
     }
 /*    ******** header end **************/
+    
+   
+    
+    
+    
+    /*    ******** slider start *************/
+    #slider .banner{
+        padding: 200px 0;
+    }
+    
+    #slider .banner .overlay h1{
+        font-size: 40px;
+    }
+    
+    #slider .banner .overlay h3{
+        font-size: 30px;
+    }
+    
+    #slider .banner .overlay p{
+        width: 420px;
+    }
+    
+    #slider .banner .overlay{
+        padding-top: 90px;
+        padding-left: 60px;
+        background: red;
+    }
+    
+/*    ******** slider end **************/
+    
+    
     
     
 /*    ******** course start  ************/
@@ -1339,6 +1428,35 @@
         margin-top: 10px;
     }
 /*    ******** header end **************/
+    
+    
+    
+        /*    ******** slider start *************/
+    #slider .banner{
+        padding: 200px 0;
+    }
+    
+    #slider .banner .overlay h1{
+        font-size: 40px;
+    }
+    
+    #slider .banner .overlay h3{
+        font-size: 30px;
+    }
+    
+    #slider .banner .overlay p{
+        width: 420px;
+    }
+    
+    #slider .banner .overlay{
+        padding-top: 90px;
+        padding-left: 60px;
+        background: red;
+    }
+    
+/*    ******** slider end **************/
+    
+    
     
     
 /*    ******** course start  ************/
