@@ -199,7 +199,7 @@ body{
 /************** slider  css start *********************/
 #slider .banner{
     width: 100%;
-    background: url(../images/3.jpg);
+    background: url(../images/slider-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ body{
 
 #slider .banner-2{
     width: 100%;
-    background: url(../images/3.jpg);
+    background: url(../images/slider-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ body{
 
 #slider .banner-3{
     width: 100%;
-    background: url(../images/3.jpg);
+    background: url(../images/slider-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -294,13 +294,35 @@ body{
     border: #FF4E00;
 }
 
+#slider .banner-2 .overlay h1{
+    color: #333 !important;
+}
 
+#slider .banner-2 .overlay h3{
+    color: #333 !important;
+}
+
+#slider .banner-2 .overlay p{
+    color: #333 !important;
+}
+
+#slider .banner-3 .overlay h1{
+    color: #333 !important;
+}
+
+#slider .banner-3 .overlay h3{
+    color: #333 !important;
+}
+
+#slider .banner-3 .overlay p{
+    color: #333 !important;
+}
 
 #slider .banner .overlay h1{
     font-size: 55px;
     font-weight: 800;
     text-transform: capitalize;
-    color: #333;
+    color: #fff;
     font-family: 'Arimo', sans-serif;
 }
 
@@ -308,7 +330,7 @@ body{
     font-size: 40px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #333;
+    color: #fff;
     font-family: 'Arimo', sans-serif;
 } 
 
@@ -316,7 +338,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
-    color: #333;
+    color: #fff;
     line-height: 24px;
     font-family: 'Open Sans', sans-serif;
     padding-top: 15px;
